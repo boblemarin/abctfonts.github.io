@@ -22,12 +22,12 @@ div{
 }
 
 header a{
-	font-size: 30px;
+	font-size: 28px;
     color: #c0eb3c !important;
     text-decoration: none;
 }
 
-nav a{
+a, nav a{
     color: #c0eb3c !important;
     padding: 20px;
     text-decoration: none;
