@@ -12,6 +12,7 @@ section{margin-top: 50px;}
 footer{text-align: center; margin-top: 50px;}
 a mark{background-color: black; color: white;}
 nav{text-align: center;font-weight: bolder;}
+.spec{color: #0000ff !important;}
 
 div{
 	font-family: 'Syne-Extra', sans-serif;
