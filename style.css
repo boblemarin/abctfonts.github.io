@@ -27,9 +27,15 @@ header a{
     text-decoration: none;
 }
 
-a, nav a{
+nav a{
     color: #c0eb3c !important;
     padding: 20px;
+    text-decoration: none;
+}
+
+a{
+    display: inline;
+    color: #c0eb3c !important;
     text-decoration: none;
 }
 
@@ -38,7 +44,7 @@ a, nav a{
 	color: #0000ff !important;
 	width: 100%;
 	outline: none;
-    font-size: 30px;
+  font-size: 30px;
 }
 
 ::selection {
