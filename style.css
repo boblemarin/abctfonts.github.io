@@ -12,7 +12,7 @@ section{margin-top: 50px; margin-bottom: 100px;}
 footer{text-align: center; margin-top: 50px;}
 a mark{background-color: black; color: white;}
 a:hover{color: #0000ff !important;}
-nav{display: inline-block; text-align: center; font-weight: bolder;}
+nav{text-align: center; font-weight: bolder;}
 .spec{color: #0000ff !important;}
 ::selection{background: #ffffff;}
 
