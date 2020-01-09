@@ -4,13 +4,13 @@
          url("fonts/Syne-Extra.woff") format("woff");
 }
 
-body{background: grey; color: white;}
+body{background: black; color: white;}
 header{text-align: center; margin-top: 50px; margin-bottom: 50px;}
-h1{color:#ffff00;}
+h1{color:#ff471a;}
 img{width: 100%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px; margin-top: 20px;}
 section{margin-top: 50px;}
 footer{text-align: center; margin-top: 50px;}
-a mark{background-color: grey; color: white;}
+a mark{background-color: black; color: white;}
 nav{text-align: center;font-weight: bolder;}
 .spec{color: #0000ff !important;}
 ::selection {background: #ffffff;}
@@ -24,19 +24,19 @@ div{
 
 header a{
 	font-size: 28px;
-    color: #ffff00 !important;
+    color: #ff471a !important;
     text-decoration: none;
 }
 
 nav a{
-    color: #ffff00 !important;
+    color: #ff471a !important;
     padding: 20px;
     text-decoration: none;
 }
 
 a{
     display: inline;
-    color: #ffff00 !important;
+    color: #ff471a !important;
     text-decoration: none;
 }
 
