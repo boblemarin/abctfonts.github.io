@@ -18,7 +18,8 @@ nav{text-align: center;font-weight: bolder;}
 
 div{
 	font-family: 'Syne-Extra', sans-serif;
-  line-height: 125%;
+  text-transform: lowercase;
+  line-height: 150%;
 	font-size: 15px;
 	margin: auto;
 }
