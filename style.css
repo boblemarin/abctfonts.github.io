@@ -6,7 +6,7 @@
 
 body{background: black; color: white;}
 header{text-align: center; margin-top: 50px; margin-bottom: 50px;}
-h1{color:#ff471a;}
+h1{color:#66ff33;}
 img{width: 100%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px; margin-top: 20px;}
 section{margin-top: 50px;}
 footer{text-align: center; margin-top: 50px;}
@@ -26,19 +26,19 @@ div{
 
 header a{
 	font-size: 28px;
-    color: #ff471a !important;
+    color: #66ff33 !important;
     text-decoration: none;
 }
 
 nav a{
-    color: #ff471a !important;
+    color: #66ff33 !important;
     padding: 20px;
     text-decoration: none;
 }
 
 a{
     display: inline;
-    color: #ff471a !important;
+    color: #66ff33 !important;
     text-decoration: none;
 }
 
