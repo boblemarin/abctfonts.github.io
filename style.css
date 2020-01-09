@@ -6,39 +6,39 @@
 
 body{background: black; color: white;}
 header{text-align: center; margin-top: 50px; margin-bottom: 50px;}
-h1{color:#66ff33;}
+h1{color: #66ff66;}
 img{width: 100%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px; margin-top: 20px;}
 section{margin-top: 50px;}
 footer{text-align: center; margin-top: 50px;}
 a mark{background-color: black; color: white;}
 a:hover{color: #0000ff !important;}
-nav{text-align: center;font-weight: bolder;}
+nav{text-align: center; font-weight: bolder;}
 .spec{color: #0000ff !important;}
-::selection {background: #ffffff;}
+::selection{background: #ffffff;}
 
 div{
 	font-family: 'Syne-Extra', sans-serif;
   text-transform: lowercase;
-  line-height: 175%;
+  line-height: 150%;
 	font-size: 18px;
 	margin: auto;
 }
 
 header a{
-	font-size: 28px;
-    color: #66ff33 !important;
+	font-size: 30px;
+    color: #66ff66 !important;
     text-decoration: none;
 }
 
 nav a{
-    color: #66ff33 !important;
+    color: #66ff66 !important;
     padding: 20px;
     text-decoration: none;
 }
 
 a{
     display: inline;
-    color: #66ff33 !important;
+    color: #66ff66 !important;
     text-decoration: none;
 }
 
