@@ -4,29 +4,27 @@
          url("fonts/Syne-Extra.woff") format("woff");
 }
 
-body{background: black; color: white;}
+body{background: #7c7c7c; color: white;}
 header{text-align: center; margin-top: 50px; margin-bottom: 50px;}
-h1{color: #66ff66;}
+h1{color: #66ff66; text-transform: lowercase;}
 img{width: 100%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px; margin-top: 20px;}
 section{margin-top: 50px; margin-bottom: 100px;}
 footer{text-align: center; margin-top: 50px;}
-a mark{background-color: black; color: white;}
-h1 mark{background-color: black; color: white;}
-a:hover{color: #0000ff !important;}
+a mark{background-color: #7c7c7c; color: white;}
+h1 mark{background-color: #7c7c7c; color: white;}
+a:hover{color: white !important;}
 nav{text-align: center; font-weight: bolder;}
-.spec{color: #0000ff !important;}
 ::selection{background: #ffffff;}
 
 div{
 	font-family: 'Syne-Extra', sans-serif;
-  text-transform: lowercase;
-  line-height: 150%;
-	font-size: 18px;
+  line-height: 21px;
+	font-size: 16px;
 	margin: auto;
 }
 
 header a{
-	font-size: 30px;
+	font-size: 25px;
     color: #66ff66 !important;
     text-decoration: none;
 }
