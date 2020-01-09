@@ -17,7 +17,7 @@ nav{text-align: center;font-weight: bolder;}
 div{
 	font-family: 'Syne-Extra', sans-serif;
 	text-transform: uppercase !important;
-	font-size: 12px;
+	font-size: 15px;
 	margin: auto;
 }
 
@@ -51,17 +51,14 @@ a{
     background: #ffffff;
 }
 
-@media screen and (min-width: 700px){
-	.intro{width: 400px; height: 75px;}
-	div{width:600px;}
+@media screen and (min-width: 800px){
+	div{width:700px;}
 }
 
-@media screen and (min-width: 450px) and (max-width: 700px){
-	.intro{width: 400px; height: 60px;}
-	div{width:400px;}
+@media screen and (min-width: 450px) and (max-width: 800px){
+	div{width:500px;}
 }
 
 @media screen and (max-width: 450px){
-	.intro{width: 300px; height: 60px;}
 	div{width:310px;}
 }
