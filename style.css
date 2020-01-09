@@ -1,8 +1,5 @@
-@font-face {
-    font-family: "Syne-Extra";
-    src: url("fonts/Syne-Extra.woff2") format("woff2"),
-         url("fonts/Syne-Extra.woff") format("woff");
-}
+@font-face {font-family: "Syne-Extra"; src: url("fonts/Syne-Extra.woff2") format("woff2"), url("fonts/Syne-Extra.woff") format("woff");}
+@font-face {font-family: "PlayfairDisplay"; src: url("fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("fonts/PlayfairDisplaySC-BlackItalic.woff") format("woff");}
 
 body{background: #151515; color: white;}
 header{text-align: center; margin-top: 50px; margin-bottom: 50px;}
@@ -12,13 +9,13 @@ section{margin-top: 50px; margin-bottom: 100px;}
 footer{text-align: center; margin-top: 50px;}
 a mark{background-color: #151515; color: white;}
 h1 mark{background-color: #151515; color: white;}
+p{line-height: 21px;}
 a:hover{color: white !important;}
 nav{text-align: center; font-weight: bolder;}
 ::selection{background: #ffffff;}
 
 div{
 	font-family: 'Syne-Extra', sans-serif;
-  line-height: 21px;
   text-shadow: 0px 0px 15px black;
 	font-size: 16px;
 	margin: auto;
@@ -42,9 +39,9 @@ a{
     text-decoration: none;
 }
 
-.edit1{text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: serif;}
-.edit2{text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: fantasy;}
-.edit3{text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px;}
+.edit1{text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: 'PlayfairDisplay', sans-serif;}
+.edit2{text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: 'PlayfairDisplay', sans-serif;}
+.edit3{text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: 'PlayfairDisplay', sans-serif;}
 
 @media screen and (min-width: 800px){div{width:700px;}}
 @media screen and (min-width: 450px) and (max-width: 800px){div{width:500px;}}
