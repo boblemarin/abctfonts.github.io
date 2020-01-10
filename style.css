@@ -13,6 +13,7 @@ p{line-height: 21px;}
 a:hover{color: white !important;}
 nav{text-align: center; font-weight: bolder;}
 ::selection{background: #ffffff;}
+-webkit-tap-highlight-color: transparent;
 
 .image{
     width: 190px;
