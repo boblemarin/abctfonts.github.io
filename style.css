@@ -1,14 +1,14 @@
 @font-face {font-family: "Syne-Extra"; src: url("fonts/Syne-Extra.woff2") format("woff2"), url("fonts/Syne-Extra.woff") format("woff");}
 @font-face {font-family: "PlayfairDisplay"; src: url("fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"), url("fonts/PlayfairDisplaySC-BlackItalic.woff") format("woff");}
 
-body{background: #151515; color: white;}
+body{background: #102030; color: white;}
 header{text-align: center; margin-top: 50px; margin-bottom: 50px;}
 h1{color: #66ff66; text-transform: uppercase;}
 img{width: 100%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px; margin-top: 20px;}
 section{margin-top: 50px; margin-bottom: 100px;}
 footer{text-align: center; margin-top: 50px;}
-a mark{background-color: #151515; color: white;}
-h1 mark{background-color: #151515; color: white;}
+a mark{background-color: #102030; color: white;}
+h1 mark{background-color: #102030; color: white;}
 p{line-height: 21px;}
 a:hover{color: white !important;}
 nav{text-align: center; font-weight: bolder;}
