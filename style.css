@@ -12,6 +12,7 @@ p{margin: 0px;}
 footer{margin-top: 100px; margin-bottom: 120px; font-size: 15px;}
 a{color: blue; font-size: 27px;}
 a:visited{color: blue;}
+.download{margin-top: 30px;}
 
 /* PC */
 @media screen and (min-width: 1000px){
