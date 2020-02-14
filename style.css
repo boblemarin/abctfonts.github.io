@@ -1,6 +1,6 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 56px;
+	font-size: 30px;
   background-image: url("library/background.gif");
 	background-color: #fbfbfb;
   background-attachment: fixed;
@@ -10,10 +10,10 @@ body{
 }
 
 section{margin-bottom: 75px;}
-nav{margin-bottom: 75px; font-size: 45px;}
+nav{margin-bottom: 75px; font-size: 27px;}
 h1{margin-top: 15px; margin-bottom: 15px; line-height: 68px; word-break: normal;}
 p{margin: 0px;}
-footer{margin-top: 100px; margin-bottom: 25px; font-size: 30px;}
+footer{margin-top: 100px; margin-bottom: 25px; font-size: 15px;}
 a{color: blue;}
 a:visited{color: blue;}
 
