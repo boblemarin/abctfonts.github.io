@@ -1,75 +1,48 @@
 body{
-  font-family: Helvetica, Arial, Sans-serif;
-  color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 56px;
+  background-image: url("library/background.gif");
+	background-color: #fbfbfb;
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	word-break: break-all;
 }
 
-img{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  margin-top: 20px;
+section{margin-bottom: 75px;}
+nav{margin-bottom: 75px; font-size: 45px;}
+h1{margin-top: 15px; margin-bottom: 15px; line-height: 68px; word-break: normal;}
+p{margin: 0px;}
+footer{margin-top: 100px; margin-bottom: 25px; font-size: 30px;}
+a{color: blue;}
+a:visited{color: blue;}
+
+/* PC */
+@media screen and (min-width: 1000px){
+	body{background-size: 40%;}
+	div{margin: 24px;}
+	nav{word-spacing: 60px;}
+	nav a{display: inline-block;}
 }
 
-section{
-  margin-top: 50px;
-  margin-bottom: 100px;
+/* Tablette */
+@media screen and (min-width: 750px) and (max-width: 1000px){
+	body{background-size: 60%;}
+	div{margin: 16px;}
+	nav{text-align: center; word-spacing: 60px;}
+	nav a{display: inline-block;}
+	footer{text-align: center;}
 }
 
-footer{
-  text-align: center;
-  margin-top: 50px;
-}
-
-a mark{
-  background-color: #102030;
-  color: white;
-}
-
-p{
-  line-height: 21px;
-}
-
-a:hover{
-  color: white !important;
-}
-
-nav{
-  text-align: center;
-  font-weight: bolder;
-}
-
-::selection{
-  background: #ffffff;
-}
-
-div{
-  margin: auto;
-}
-
-header a{
-	font-size: 25px;
-    color: #66ff66 !important;
-    text-decoration: none;
-}
-
-nav a{
-    color: #66ff66 !important;
-    padding: 20px;
-    text-decoration: none;
-}
-
-a{
-    display: inline;
-    color: #66ff66 !important;
-    text-decoration: none;
+/* Smartphone */
+@media screen and (max-width: 750px){
+	body{background-size: 80%;}
+	div{margin: 8px;}
+	nav{line-height: 50px; text-align: center; margin-bottom: 50px;}
+	nav a{display: block;}
+	footer{text-align: center;}
 }
 
 .edit1{line-height: 50px; text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: 'PlayfairDisplay', sans-serif;}
 .edit2{line-height: 50px; text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: 'PlayfairDisplay', sans-serif;}
 .edit3{line-height: 50px; text-align: center; color: #0000ff !important; width: 100%; outline: none; font-size: 45px; font-family: 'PlayfairDisplay', sans-serif;}
-
-@media screen and (min-width: 800px){div{width:700px;}}
-@media screen and (min-width: 450px) and (max-width: 800px){div{width:500px;}}
-@media screen and (max-width: 450px){div{width:310px;}}
