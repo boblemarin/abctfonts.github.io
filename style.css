@@ -39,7 +39,7 @@ a:visited{color: blue;}
 	footer{text-align: center;}
 }
 
-.edit1{line-height: 80px; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
-.edit2{line-height: 80px; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
-.edit3{line-height: 80px; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
-.edit4{line-height: 80px; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
+.edit1{line-height: auto; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
+.edit2{line-height: auto; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
+.edit3{line-height: auto; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
+.edit4{line-height: auto; color: slategrey; width: 100%; outline: none; font-size: 10vw;}
