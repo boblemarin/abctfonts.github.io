@@ -4,7 +4,7 @@
 
 /* Général */
 body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-image: url(library/background.jpg); background-size: 100%}
-nav{margin: 0px; text-align: center; display: inline-block; background-color: red;}
+nav{margin: 0px; text-align: center; display: inline-block;}
 div{margin-top: 100px; margin-left: 100px; font-size: 24px;}
 a{font-weight: bold; font-style: italic; text-decoration: none; color: black;}
 ::selection{background-color: rgba(0, 0, 0, 0.1);}
