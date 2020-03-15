@@ -4,7 +4,7 @@
 @font-face{font-family: Aileron; font-weight: bold; font-style: italic; src: url(fonts/aileron_bold-italic.otf) format("opentype");}
 
 /* Général */
-body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-image: url(background/background.jpg); background-size: 1700px; background-position: center; background-attachment: fixed;}
+body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-color: rgb(237,232,218); background-image: url(background/background.jpg); background-size: 1700px; background-position: center; background-attachment: fixed;}
 nav{margin: 0px; text-align: center; display: inline-block;}
 ::selection{background-color: rgba(0, 0, 0, 0.1);}
 
