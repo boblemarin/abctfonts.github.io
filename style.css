@@ -1,4 +1,5 @@
 @font-face{font-family: Aileron; src: url(fonts/aileron_regular.otf) format("opentype");}
+@font-face{font-family: Aileron; font-style: italic; src: url(fonts/aileron_italic.otf) format("opentype");}
 @font-face{font-family: Aileron; font-weight: bold; src: url(fonts/aileron_bold.otf) format("opentype");}
 @font-face{font-family: Aileron; font-weight: bold; font-style: italic; src: url(fonts/aileron_bold-italic.otf) format("opentype");}
 
