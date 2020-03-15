@@ -3,7 +3,7 @@
 @font-face{font-family: Aileron; font-weight: bold; font-style: italic; src: url(fonts/aileron_bold-italic.otf) format("opentype");}
 
 /* Général */
-body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-image: url(background/background.jpg); background-size: 2050px; background-position: center; background-repeat: no-repeat; background-attachment: fixed;}
+body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-image: url(background/background.jpg); background-size: 1950px; background-position: center; background-repeat: no-repeat; background-attachment: fixed;}
 nav{margin: 0px; text-align: center; display: inline-block;}
 ::selection{background-color: rgba(0, 0, 0, 0.1);}
 
@@ -32,6 +32,6 @@ a{font-weight: bold; font-style: italic; text-decoration: none; color: black;}
 /* Smartphone */
 @media screen and (max-width: 900px){
   nav{ word-spacing: 33px;}
-  .intro{background-image: url(background/intro2.png); background-size: 1900px; background-position: center; background-repeat: no-repeat; background-attachment: fixed;}
-  .contact{background-image: url(background/contact2.jpg); background-size: 1900px; background-position: center; background-repeat: no-repeat; background-attachment: fixed;}
+  .intro{background-image: url(background/intro2.png); background-size: 1700px; background-position: center; background-repeat: no-repeat; background-attachment: fixed;}
+  .contact{background-image: url(background/contact2.jpg); background-size: 1700px; background-position: center; background-repeat: no-repeat; background-attachment: fixed;}
 }
