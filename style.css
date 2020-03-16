@@ -65,4 +65,5 @@ nav a:hover{opacity: 0.3;}
   .content{margin: 45px; text-align: center;}
   .thumbnail{width: 250px;}
   .article{width: 250px;}
+  .article img{width: 230px;}
 }
