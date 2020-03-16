@@ -47,6 +47,9 @@ nav a:hover{opacity: 0.3;}
   .content{margin: 65px; text-align: center;}
   .thumbnail{width: 300px;}
   .article{width: 750px;}
+
+  .mapped1{display: block; top: 0;}
+  .mapped2{display: none;}
 }
 
 /* Smartphone */
@@ -67,4 +70,7 @@ nav a:hover{opacity: 0.3;}
   .article{width: 250px;}
   .article img{width: 230px;}
   .article h1{margin-left: 10px; margin-top: 170px;}
+
+  .mapped2{display: block; top: 0;}
+  .mapped1{display: none;}
 }
