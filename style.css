@@ -7,7 +7,7 @@
 body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-color: rgb(237,232,218); background-image: url(background/background.jpg); background-size: 1700px; background-position: center; background-attachment: fixed;}
 nav{margin: 0px; text-align: center; display: inline-block;}
 ::selection{background-color: rgba(0, 0, 0, 0.1);}
-.content{margin-top: 100px; margin-left: 100px; font-size: 24px;}
+.content{font-size: 24px;}
 a{text-decoration: none; color: black;}
 nav a:hover{opacity: 0.3;}
 
@@ -18,14 +18,14 @@ nav a:hover{opacity: 0.3;}
 .social{z-index: 1; overflow: hidden; ; position: fixed; right: 50%; top: 50%; width: 100%; margin-right: -25px; margin-top: -15px; transform: rotate(-90deg);}
 
 /* Thumbnail */
-.thumbnail{display: inline-block; background-color: white; width: 300px; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left;}
+.thumbnail{display: inline-block; background-color: white; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left;}
 .thumbnail a:hover{opacity: 0.3;}
 .thumbnail img{width: 100%;}
 .thumbnail h1{font-size: 25px; margin-top: 0px; margin-bottom: 0px; margin-left: 10px; word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
 .thumbnail p{font-size: 15px; margin-top: 5px; margin-bottom: 10px; margin-left: 10px; word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
 
 /* Article */
-.article{display: inline-block; background-color: white; width: 750px; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left;}
+.article{display: inline-block; background-color: white; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left;}
 .article a:hover{color: red;}
 .article img{float: left; margin: 10px; margin-bottom: 0px;}
 .article h1{font-size: 25px; margin-top: 5px; margin-bottom: 10px;}
@@ -45,6 +45,8 @@ nav a:hover{opacity: 0.3;}
   .contact{background-image: url(background/contact1.jpg); background-size: 2200px; background-position: center; background-attachment: fixed;}
 
   .content{margin: 65px; text-align: center;}
+  .thumbnail{width: 300px;}
+  .article{width: 750px;}
 }
 
 /* Smartphone */
@@ -60,5 +62,7 @@ nav a:hover{opacity: 0.3;}
   .intro{background-image: url(background/intro2.jpg); background-size: 1200px; background-position: center; background-attachment: fixed;}
   .contact{background-image: url(background/contact2.jpg); background-size: 1200px; background-position: center; background-attachment: fixed;}
 
-  .content{margin: 47px; text-align: center;}
+  .content{margin: 45px; text-align: center;}
+  .thumbnail{width: 250px;}
+  .article{width: 250px;}
 }
