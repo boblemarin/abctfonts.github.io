@@ -5,7 +5,6 @@
 
 /* Général */
 body{margin: 0px; font-family: Aileron; font word-break: break-all; cursor: default; background-color: rgb(237,232,218); background-image: url(background/background.jpg); background-size: 1700px; background-position: center; background-attachment: fixed;}
-.soon{background-image: url(background/soon.jpg);}
 nav{margin: 0px; text-align: center; display: inline-block;}
 ::selection{background-color: rgba(0, 0, 0, 0.1);}
 .content{font-size: 24px;}
@@ -44,6 +43,7 @@ nav a:hover{opacity: 0.3;}
 
   .intro{background-image: url(background/intro1.jpg); background-size: 2200px; background-position: center; background-attachment: fixed;}
   .contact{background-image: url(background/contact1.jpg); background-size: 2200px; background-position: center; background-attachment: fixed;}
+  .soon{background-image: url(background/soon.jpg); background-size: 2200px; background-position: center; background-attachment: fixed;}
 
   .content{margin: 65px; text-align: center;}
   .thumbnail{width: 300px;}
@@ -65,6 +65,7 @@ nav a:hover{opacity: 0.3;}
 
   .intro{background-image: url(background/intro2.jpg); background-size: 1200px; background-position: center; background-attachment: fixed;}
   .contact{background-image: url(background/contact2.jpg); background-size: 1200px; background-position: center; background-attachment: fixed;}
+  .soon{background-image: url(background/soon.jpg); background-size: 1200px; background-position: center; background-attachment: fixed;}
 
   .content{margin: 45px; text-align: center;}
   .thumbnail{width: 250px;}
