@@ -30,8 +30,8 @@ nav a:hover{opacity: 0.3;}
 .article a:hover{color: #12854A;}
 .article img{width: 100%; border-top-left-radius: 17px; border-top-right-radius: 17px; margin-bottom: 0px;}
 .article h1{font-size: 45px; margin-top: 5px; margin-bottom: 10px; text-align: center;}
-.article h2{font-size: 25px; margin-top: 5px; margin-bottom: 10px; text-align: center;}
-.article p{font-size: 15px; margin-top: 5px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;}
+.article h2{font-size: 25px; margin-top: 15px; margin-bottom: 30px; text-align: center;}
+.article p{font-size: 15px; margin-top: 5px; margin-bottom: 30px; margin-left: 10px; margin-right: 10px; line-height: 130%;}
 
 /* PC */
 @media screen and (min-width: 900px){
