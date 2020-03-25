@@ -18,9 +18,9 @@ nav a:hover{opacity: 0.3;}
 .social{z-index: 1; overflow: hidden; ; position: fixed; right: 50%; top: 50%; width: 100%; margin-right: -25px; margin-top: -15px; transform: rotate(-90deg);}
 
 /* Thumbnail */
-.thumbnail{display: inline-block; background-color: white; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left;}
+.thumbnail{display: inline-block; background-color: white; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left; border-radius: 17px; box-shadow: 5px 5px 5px rgba(0,0,0,0.1);}
 .thumbnail a:hover{opacity: 0.3;}
-.thumbnail img{width: 100%;}
+.thumbnail img{width: 100%; border-top-left-radius: 17px; border-top-right-radius: 17px;}
 .thumbnail h1{font-size: 25px; margin-top: 0px; margin-bottom: 0px; margin-left: 10px; word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
 .thumbnail p{font-size: 15px; margin-top: 5px; margin-bottom: 10px; margin-left: 10px; word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
 
