@@ -28,8 +28,9 @@ nav a:hover{opacity: 0.3;}
 .article{display: inline-block; background-color: white; margin-left: 12px; margin-right: 12px; margin-bottom: 25px; text-align: left; border-radius: 17px; box-shadow: 5px 5px 5px rgba(0,0,0,0.1); text-align: justify; word-break: break-all;}
 .article a{color: #02B5DD;}
 .article a:hover{color: #12854A;}
-.article img{margin: 10px; margin-bottom: 0px;}
-.article h1{font-size: 25px; margin-top: 5px; margin-bottom: 10px; margin-left: 10px;}
+.article img{width: 100%; border-top-left-radius: 17px; border-top-right-radius: 17px; margin-bottom: 0px;}
+.article h1{font-size: 45px; margin-top: 5px; margin-bottom: 10px; text-align: center;}
+.article h2{font-size: 25px; margin-top: 5px; margin-bottom: 10px; text-align: center;}
 .article p{font-size: 15px; margin-top: 5px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;}
 
 /* PC */
