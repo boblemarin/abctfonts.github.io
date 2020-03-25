@@ -51,7 +51,6 @@ nav a:hover{opacity: 0.3;}
   .thumbnail{width: 300px;}
 
   .article{width: 750px;}
-  .small{display: hidden;}
 
   .mapped1{display: block; position: absolute;}
   .mapped2{display: none;}
@@ -75,7 +74,6 @@ nav a:hover{opacity: 0.3;}
   .thumbnail{width: 250px;}
 
   .article{width: 250px;}
-  .big{display: hidden;}
 
   .mapped2{display: block; position: absolute;}
   .mapped1{display: none;}
