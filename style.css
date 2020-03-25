@@ -34,7 +34,7 @@ nav a:hover{opacity: 0.3;}
 .article p{font-size: 15px; margin-top: 5px; margin-bottom: 30px; margin-left: 10px; margin-right: 10px; line-height: 130%;}
 
 /* PC */
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1024px){
   nav{word-spacing: 99px;}
   nav img{height: 30px;}
 
@@ -58,7 +58,7 @@ nav a:hover{opacity: 0.3;}
 }
 
 /* Smartphone */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
   nav{word-spacing: 66px;}
   nav img{height: 20px;}
 
