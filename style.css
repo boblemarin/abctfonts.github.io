@@ -59,7 +59,7 @@ nav a:hover{opacity: 0.3;}
 }
 
 /* Tablette */
-@media screen and (min-width: 512px) and (max-width: 1024px){
+@media screen and (min-width: 560px) and (max-width: 1024px){
   nav{word-spacing: 66px;}
   nav img{height: 20px;}
 
@@ -82,7 +82,7 @@ nav a:hover{opacity: 0.3;}
 }
 
 /* Smartphone */
-@media screen and (max-width: 512px){
+@media screen and (max-width: 560px){
   nav{word-spacing: 66px;}
   nav img{height: 20px;}
 
