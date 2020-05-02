@@ -22,5 +22,9 @@ h1{
 }
 
 main{
-	height: 1000px;
+	height: 4000px;
+}
+
+.nav-up {
+    top: -100px;
 }
