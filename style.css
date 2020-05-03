@@ -4,13 +4,10 @@
 
 body{
 	font-family: Aileron;
-	margin:  0px;
-	background-color: #F5F5F5;
+	margin: 0px;
 }
 
 header{
-	background-color: white;
-	box-shadow: 0px -15px 20px black;
 	height: 50px;
 	position: fixed;
   top: 0;
@@ -21,6 +18,8 @@ header{
 h1{
 	font-family: Blimey;
 	text-align: center;
+	letter-spacing: 1px;
+	color: #e55440;
 	margin-top: 0px; margin-bottom: 0px;
 	font-size: 43px;
 }
@@ -29,6 +28,11 @@ main{
 	height: 4000px;
 }
 
-.nav-up {
-    top: -56px;
+footer{
+	font-size: 10px;
+	margin-bottom: 30px; margin-left: 10px;
+}
+
+.nav-up{
+    top: -50px;
 }
