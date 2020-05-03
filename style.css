@@ -60,8 +60,8 @@ header a{
 }
 
 .onglet:hover{
-	border-bottom: solid 1px red;
-	color: red;
+	border-bottom: solid 2px black;
+	font-weight: bolder;
 }
 
 main{
