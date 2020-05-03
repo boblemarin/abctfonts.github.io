@@ -1,24 +1,29 @@
+@font-face{font-family: Aileron; src: url(fonts/aileron_regular.otf) format("opentype");}
+@font-face{font-family: Aileron; font-weight: bold; src: url(fonts/aileron_bold.otf) format("opentype");}
+@font-face{font-family: Blimey; src: url(fonts/Blimey-V03-RegularA.woff) format("woff");}
+
 body{
-	font-family: arial, helvetica, sans-serif;
+	font-family: Aileron;
 	margin:  0px;
 	background-color: #F5F5F5;
 }
 
 header{
 	background-color: white;
-	box-shadow: 0px -5px 20px black;
-	height: 80px;
+	box-shadow: 0px -10px 20px black;
+	height: 50px;
 	position: fixed;
-    top: 0;
-    transition: top 0.2s ease-in-out;
-    width: 100%;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
 }
 
 h1{
+	font-family: Blimey;
 	text-align: center;
 	margin-top: 0px; margin-bottom: 0px;
 	font-style: italic; letter-spacing: -6px;
-	font-size: 72px;
+	font-size: 30px;
 }
 
 main{
@@ -26,5 +31,5 @@ main{
 }
 
 .nav-up {
-    top: -100px;
+    top: -61px;
 }
