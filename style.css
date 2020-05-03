@@ -5,23 +5,58 @@
 body{
 	font-family: Aileron;
 	margin: 0px;
+	background-color: #fafafa;
 }
 
-header{
-	height: 50px;
+.turbohead{
+	z-index: 1;
+	height: 60px;
+	background-color: white;
 	position: fixed;
-  top: 0;
-  transition: top 0.2s ease-in-out;
-  width: 100%;
+    top: 0;
+    width: 100%;
 }
 
 h1{
 	font-family: Blimey;
 	text-align: center;
 	letter-spacing: 1px;
-	color: #e55440;
-	margin-top: 0px; margin-bottom: 0px;
+	margin-top: 5px; margin-bottom: 0px;
 	font-size: 43px;
+}
+
+.turbohead a{
+	text-decoration: none;
+	color: black;
+}
+
+header{
+	background-color: white;
+	font-size: 16px;
+	z-index: 0;
+	position: fixed;
+    top: 0;
+    margin-top: 60px; padding-bottom: 10px;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+}
+
+.onglet{
+	border-bottom: solid 1px black;
+	padding-left: 20px; padding-right: 20px; padding-top: 4px;
+    margin-left: 30px; margin-top: 7px;
+	text-align: center;
+	height: 22px;
+	display: inline-block;
+}
+
+.nav-up{
+    top: -300px;
 }
 
 main{
@@ -29,10 +64,12 @@ main{
 }
 
 footer{
-	font-size: 10px;
-	margin-bottom: 30px; margin-left: 10px;
+	font-size: 12px;
+	margin-bottom: 30px; margin-left: 30px;
 }
 
-.nav-up{
-    top: -50px;
+footer a{
+	color: black;
+	text-decoration: none;
+	border-bottom: solid 1px black;
 }
