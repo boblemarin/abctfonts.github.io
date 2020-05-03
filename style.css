@@ -59,8 +59,9 @@ header a{
     top: -300px;
 }
 
-a:hover{
-	opacity: 0.75;
+.onglet:hover{
+	border-bottom: solid 1px red;
+	color: red;
 }
 
 main{
