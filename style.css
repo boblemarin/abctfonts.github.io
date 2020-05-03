@@ -84,9 +84,8 @@ h2{
 .thumbnail{
 	width: 300px;
 	display: inline-block;
-	margin-left: 12px;
-	margin-right: 12px;
-	margin-bottom: 25px;
+	padding: 10px;
+	border-bottom: solid 1px black;
 }
 
 .thumbnail img{
@@ -94,15 +93,13 @@ h2{
 }
 
 .thumbnail p{
-	margin-top: 0px; margin-bottom: 0px; margin-left: 10px;
+	margin-top: 10px; margin-bottom: 0px;
 	word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;
 }
 
 .description{
-	font-size: 12.5px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	font-size: 14px;
+	margin-top: 10px;
 	word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;
 }
 
