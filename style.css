@@ -5,7 +5,7 @@
 body{
 	font-family: Aileron;
 	margin: 0px;
-	background-color: #fefefe;
+	background-color: #ededed;
 }
 
 .turbohead{
@@ -57,6 +57,10 @@ header a{
 
 .nav-up{
     top: -300px;
+}
+
+a:hover{
+	opacity: 0.75;
 }
 
 main{
