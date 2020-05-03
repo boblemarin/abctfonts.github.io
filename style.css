@@ -10,7 +10,7 @@ body{
 
 header{
 	background-color: white;
-	box-shadow: 0px -10px 20px black;
+	box-shadow: 0px -15px 20px black;
 	height: 50px;
 	position: fixed;
   top: 0;
@@ -22,8 +22,7 @@ h1{
 	font-family: Blimey;
 	text-align: center;
 	margin-top: 0px; margin-bottom: 0px;
-	font-style: italic; letter-spacing: -6px;
-	font-size: 30px;
+	font-size: 43px;
 }
 
 main{
@@ -31,5 +30,5 @@ main{
 }
 
 .nav-up {
-    top: -61px;
+    top: -56px;
 }
