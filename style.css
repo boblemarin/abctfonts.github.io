@@ -5,7 +5,7 @@
 body{
 	font-family: Aileron;
 	margin: 0px;
-	background-color: #fafafa;
+	background-image: url(background/background.jpg); background-size: 1700px;
 }
 
 .turbohead{
@@ -13,8 +13,8 @@ body{
 	height: 60px;
 	background-color: white;
 	position: fixed;
-    top: 0;
-    width: 100%;
+  top: 0;
+  width: 100%;
 }
 
 h1{
@@ -32,13 +32,13 @@ h1{
 
 header{
 	background-color: white;
-	font-size: 16px;
+	font-size: 14px;
 	z-index: 0;
 	position: fixed;
-    top: 0;
-    margin-top: 60px; padding-bottom: 10px;
-    transition: top 0.5s ease-in-out;
-    width: 100%;
+  top: 0;
+  margin-top: 60px; padding-bottom: 10px;
+  transition: top 0.5s ease-in-out;
+  width: 100%;
 }
 
 header a{
@@ -49,9 +49,9 @@ header a{
 .onglet{
 	border-bottom: solid 1px black;
 	padding-left: 20px; padding-right: 20px; padding-top: 4px;
-    margin-left: 30px; margin-top: 7px;
+  margin-left: 30px; margin-top: 7px;
 	text-align: center;
-	height: 22px;
+	height: 20px;
 	display: inline-block;
 }
 
@@ -64,8 +64,9 @@ main{
 }
 
 footer{
+	background-color: white;
 	font-size: 12px;
-	margin-bottom: 30px; margin-left: 30px;
+	padding-bottom: 90px; padding-left: 30px; padding-top: 15px;
 }
 
 footer a{
