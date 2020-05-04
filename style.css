@@ -84,7 +84,8 @@ h2{
 .thumbnail{
 	width: 300px;
 	display: inline-block;
-	padding: 10px;
+	padding-left: 10px; padding-right: 10px; padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .thumbnail img{
