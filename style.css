@@ -11,7 +11,10 @@ body{
 }
 
 a:hover{
-	color: red;
+	color: transparent;
+  text-shadow: 0 0 3px rgba(0,0,0,1);
+	-webkit-filter: blur(5px);
+  filter: blur(5px);
 }
 
 /* Header */
@@ -36,6 +39,11 @@ h1{
 .turbohead a{
 	text-decoration: none;
 	color: black;
+}
+
+.turbohead a:hover{
+	color: transparent;
+  text-shadow: 0 0 3px rgba(0,0,0,1);
 }
 
 header{
