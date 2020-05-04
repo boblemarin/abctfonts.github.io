@@ -12,7 +12,7 @@ body{
 
 a:hover{
 	color: transparent;
-  text-shadow: 0 0 2px rgba(0,0,0,1);
+  text-shadow: 0 0 3px rgba(0,0,0,1);
 }
 
 /* Header */
@@ -41,7 +41,7 @@ h1{
 
 .turbohead a:hover{
 	color: transparent;
-  text-shadow: 0 0 2px rgba(0,0,0,1);
+  text-shadow: 0 0 3px rgba(0,0,0,1);
 }
 
 header{
