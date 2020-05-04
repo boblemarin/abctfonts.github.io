@@ -77,6 +77,9 @@ header a{
 
 main{
 	padding-top: 200px; padding-left: 20px; padding-right: 20px; padding-bottom: 300px;
+}
+
+.mosaik{
 	text-align: center;
 }
 
@@ -97,15 +100,15 @@ h2{
 .thumbnail{
 	display: inline-block;
 	margin-bottom: 25px;
-	padding-right: 2.5px; padding-left: 2.5px;
 }
 
 .thumbnail img{
-	width: 100%;
+	width: 95%;
 }
 
 .thumbnail p{
 	margin-top: 5px; margin-bottom: 0px;
+	text-align: left;
 	word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;
 }
 
