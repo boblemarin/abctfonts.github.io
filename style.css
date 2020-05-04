@@ -2,13 +2,19 @@
 @font-face{font-family: Aileron; font-weight: bold; src: url(fonts/aileron_bold.otf) format("opentype");}
 @font-face{font-family: Blimey; src: url(fonts/Blimey-V03-RegularA.woff) format("woff");}
 
+/* Global */
+
 body{
 	font-family: Aileron;
 	font-size: 25px;
 	margin: 0px;
 }
 
-/* Header*/
+a:hover{
+	opacity: 0.75;
+}
+
+/* Header */
 
 .turbohead{
 	z-index: 1;
