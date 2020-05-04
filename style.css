@@ -11,7 +11,7 @@ body{
 }
 
 a:hover{
-	opacity: 0.5;
+	color: red;
 }
 
 /* Header */
