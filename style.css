@@ -96,8 +96,10 @@ h2{
 }
 
 img{
-	width: 250px;
-	margin-bottom: 80px;
+	height: 40px;
+  padding-top: 5px;
+  margin-right: 10px;
+  float: left;
 }
 
 /* Thumbnail */
