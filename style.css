@@ -119,7 +119,8 @@ h2{
 }
 
 .thumbnail img{
-	width: 95%;
+	width: 100%;
+	outline: 10px solid white;
 }
 
 .thumbnail p{
