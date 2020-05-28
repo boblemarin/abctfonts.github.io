@@ -85,6 +85,7 @@ h2{
 /* Thumbnail */
 
 .thumbnail{
+	transform: skewY(-10deg);
 	display: inline-block;
 	margin-bottom: 70px;
 }
@@ -100,8 +101,10 @@ h2{
 }
 
 .thumbnail img{
-	width: 100%;
-	outline: 10px solid white;
+	width: 98%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thumbnail p{
