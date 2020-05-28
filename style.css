@@ -21,7 +21,7 @@ a:hover{
 .turbohead{
 	height: 400px;
 	background-color: white;
-	background-image: url(library/titraille.gif); background-repeat: no-repeat; fill: #303030; background-size: 500px;
+	background-image: url(library/titraille.gif); background-repeat: no-repeat; fill: #303030;
     background-position: 50% 80%;
 }
 
@@ -142,34 +142,41 @@ footer a{
 /* XXXL */
 @media screen and (min-width: 2175px){
   .thumbnail{width: 300px;}
+	.turbohead{background-size: 900px;}
 }
 
 /* XXL */
 @media screen and (min-width: 1870px) and (max-width: 2175px){
   .thumbnail{width: 14.28%;}
+	.turbohead{background-size: 800px;}
 }
 
 /* XL */
 @media screen and (min-width: 1565px) and (max-width: 1870px){
   .thumbnail{width: 20%;}
+	.turbohead{background-size: 700px;}
 }
 
 /* L */
 @media screen and (min-width: 1260px) and (max-width: 1565px){
   .thumbnail{width: 25%;}
+	.turbohead{background-size: 600px;}
 }
 
 /* M */
 @media screen and (min-width: 955px) and (max-width: 1260px){
   .thumbnail{width: 33.33%;}
+	.turbohead{background-size: 500px;}
 }
 
 /* S */
 @media screen and (min-width: 650px) and (max-width: 955px){
   .thumbnail{width: 50%;}
+	.turbohead{background-size: 400px;}
 }
 
 /* XS */
 @media screen and (max-width: 650px){
   .thumbnail{width: 100%;}
+	.turbohead{background-size: 300px;}
 }
