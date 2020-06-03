@@ -1,182 +1,96 @@
 @font-face{font-family: Aileron; src: url(fonts/aileron_regular.otf) format("opentype");}
 @font-face{font-family: Aileron; font-weight: bold; src: url(fonts/aileron_bold.otf) format("opentype");}
 
-/* Global */
-
 body{
-	font-family: Aileron;
-	font-size: 25px;
 	margin: 0px;
-	background-color: white;
-	cursor: crosshair;
+	margin-top: 30px;
+	background-color: #c5e0d7;
+	font-family: Aileron, arial, helvetica, sans-serif;
 }
-
-a:hover{
-	color: transparent;
-    text-shadow: 0 0 3px rgba(0,0,0,1);
-}
-
-/* Header */
-
-.turbohead{
-	height: 400px;
-	background-color: white;
-	background-image: url(library/titraille.gif); background-repeat: no-repeat; fill: #303030;
-    background-position: 50% 80%;
-}
-
-header{
-	background-color: white;
-	z-index: 0;
-	position: fixed;
-    top: 0;
-    padding-bottom: 10px;
-    transition: top 0.3s ease-in-out;
-    background-image: url(library/titraille.gif); background-repeat: no-repeat; fill: #303030; background-size: 300px;
-    background-position: 50% 50%;
-    height: 120px;
-    width: 100%;
-}
-
-.onglet{
-	border-bottom: solid 1px black;
-	padding-left: 20px; padding-right: 20px; padding-top: 4px;
-    margin-left: 30px; margin-top: 7px;
-	text-align: center;
-	height: 20px;
-	display: inline-block;
-}
-
-.nav-up{
-    top: -300px;
-}
-
-/* Main */
 
 main{
-	padding-top: 200px; padding-left: 20px; padding-right: 20px; padding-bottom: 300px;
+	width: 950px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 18px;
 }
 
-.mosaik{
-	text-align: justify;
+header img{
+	width: 100%;
 }
 
-main a{
-	color: black;
-	text-decoration: none;
-}
-
-h2{
-	font-size: 50px;
-	line-height: 50px;
-	margin: 0px;
-}
-
-/* Article */
-
-.article img{
-	height: 40px;
-    padding-top: 5px;
-    margin-right: 10px;
+.column{
     float: left;
+    width: 33.33%;
+    height: 50px;
 }
 
-/* Thumbnail */
-
-.thumbnail{
-	transform: skewY(-10deg);
-	display: inline-block;
-	margin-bottom: 70px;
+.column img{
+	width: 305px;
 }
 
-.thumbnail h1{
-	position: absolute;
-	padding-left: 15px;
-	font-size: 60px;
-	font-family: manicotti, sans-serif;
-	font-weight: 400;
-    font-style: normal;
-    margin-top: -50px;
+.A{
+	margin-top: -11px;
 }
 
-.thumbnail img{
-	width: 98%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+.B{
+	margin-top: -69px;
 }
 
-.thumbnail p{
-	margin-top: 5px; margin-bottom: 0px;
+.C{
+	margin-top: -138px;
+}
+
+.L{
+    margin-bottom: 50px;
+}
+
+#centre{
+	text-align: center;
+}
+
+#centre p{
+	margin-left: 6px;
+}
+
+#droite{
+	text-align: right;
+}
+
+#droite p{
+	margin-left: 12px;
+}
+
+.moinsquatre{
+	transform: skewY(-4deg);
+}
+
+.douze{
+	margin-top: -16px;
+	margin-bottom: -16px;
+	transform: skewY(12deg);
+}
+
+.dixhuit{
+	margin-top: -42px;
+	margin-bottom: -42px;
+	transform: skewY(22deg);
+}
+
+p{
 	text-align: left;
-	word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;
+	margin-top: 0px;
+	margin-bottom: 12px;
 }
-
-.description{
-	font-size: 14px;
-	padding-bottom: 8px;
-	margin-top: 10px;
-	word-break: break-all; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;
-}
-
-.divider{
-	width: 20px;
-	height: 30px;
-}
-
-/* Footer */
 
 footer{
-	background-color: white;
-	font-size: 12px;
-	padding-bottom: 90px; padding-left: 30px; padding-top: 15px;
+	font-weight: bolder;
+	display: inline-block;
+	margin-top: 2000px;
 }
 
-footer a{
-	color: black;
+a{
 	text-decoration: none;
-}
-
-/* Responsive */
-
-/* XXXL */
-@media screen and (min-width: 2175px){
-  .thumbnail{width: 300px;}
-	.turbohead{background-size: 900px;}
-}
-
-/* XXL */
-@media screen and (min-width: 1870px) and (max-width: 2175px){
-  .thumbnail{width: 14.28%;}
-	.turbohead{background-size: 800px;}
-}
-
-/* XL */
-@media screen and (min-width: 1565px) and (max-width: 1870px){
-  .thumbnail{width: 20%;}
-	.turbohead{background-size: 700px;}
-}
-
-/* L */
-@media screen and (min-width: 1260px) and (max-width: 1565px){
-  .thumbnail{width: 25%;}
-	.turbohead{background-size: 600px;}
-}
-
-/* M */
-@media screen and (min-width: 955px) and (max-width: 1260px){
-  .thumbnail{width: 33.33%;}
-	.turbohead{background-size: 500px;}
-}
-
-/* S */
-@media screen and (min-width: 650px) and (max-width: 955px){
-  .thumbnail{width: 50%;}
-	.turbohead{background-size: 400px;}
-}
-
-/* XS */
-@media screen and (max-width: 650px){
-  .thumbnail{width: 100%;}
-	.turbohead{background-size: 300px;}
+	color: black;
 }
