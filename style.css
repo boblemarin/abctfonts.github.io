@@ -1,11 +1,12 @@
 @font-face{font-family: Aileron; src: url(fonts/aileron_regular.otf) format("opentype");}
 @font-face{font-family: Aileron; font-weight: bold; src: url(fonts/aileron_bold.otf) format("opentype");}
+@font-face{font-family: Talbot; src: url(fonts/Talbot.otf) format("opentype");}
 
 body{
 	margin: 0px;
 	margin-top: 30px;
 	background-color: #c5e0d7;
-	font-family: Aileron, arial, helvetica, sans-serif;
+	font-family: Talbot, arial, helvetica, sans-serif;
 }
 
 main{
@@ -13,7 +14,7 @@ main{
 	left: 0;
 	right: 0;
 	margin: auto;
-	font-size: 18px;
+	font-size: 50px;
 }
 
 header img{
@@ -23,6 +24,8 @@ header img{
 .column{
     float: left;
     width: 33.33%;
+    line-height: 40px;
+    letter-spacing: -1px;
     height: 50px;
 }
 
