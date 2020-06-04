@@ -8,6 +8,19 @@ body{
 	background-color: #fcfbeb;
 }
 
+footer{
+	font-family: Aileron, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 13px;
+	width: 100%;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+footer img{
+	height: 130px;
+}
+
 /* PC */
 @media screen and (min-width: 1024px){
 
@@ -81,7 +94,7 @@ header img{
 
 .AG{
 	margin-top: -35px;
-	margin-bottom: 30px;
+	margin-bottom: 130px;
 }
 
 #centre{
