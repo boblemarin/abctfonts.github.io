@@ -5,16 +5,21 @@
 body{
 	margin: 0px;
 	margin-top: 30px;
-	background-color: #c5e0d7;
-	font-family: Talbot, arial, helvetica, sans-serif;
+	background-color: #fcfbeb;
 }
 
-main{
+/* PC */
+@media screen and (min-width: 1024px){
+
+.dev{
+	display: none;
+}
+
+.com{
 	width: 950px;
 	left: 0;
 	right: 0;
 	margin: auto;
-	font-size: 50px;
 }
 
 header img{
@@ -24,9 +29,6 @@ header img{
 .column{
     float: left;
     width: 33.33%;
-    line-height: 40px;
-    letter-spacing: -1px;
-    height: 50px;
 }
 
 .column img{
@@ -34,19 +36,52 @@ header img{
 }
 
 .A{
-	margin-top: -11px;
+	margin-top: -24px;
 }
 
 .B{
-	margin-top: -69px;
+	margin-top: -70px;
 }
 
 .C{
-	margin-top: -138px;
+	margin-top: -136px;
 }
 
-.L{
-    margin-bottom: 50px;
+.G, .H, .I, .M, .N, .O, .Y, .Z, .AA, .AE {
+	margin-top: -40px;
+}
+
+.J, .K, .L {
+	margin-top: -95px;
+}
+
+.S{
+	margin-top: 25px;
+}
+
+.T, .U {
+	margin-top: 65px;
+}
+
+.AB{
+	margin-top: -75px;
+}
+
+.AC{
+	margin-top: -55px;
+}
+
+.AD{
+	margin-top: -58px;
+}
+
+.AF{
+	margin-top: -38px;
+}
+
+.AG{
+	margin-top: -35px;
+	margin-bottom: 30px;
 }
 
 #centre{
@@ -64,36 +99,44 @@ header img{
 #droite p{
 	margin-left: 12px;
 }
-
-.moinsquatre{
-	transform: skewY(-4deg);
 }
 
-.douze{
-	margin-top: -16px;
-	margin-bottom: -16px;
-	transform: skewY(12deg);
+/* Smartphone */
+@media screen and (max-width: 1024px){
+
+.dev{
+	width: 305px;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
-.dixhuit{
-	margin-top: -42px;
-	margin-bottom: -42px;
-	transform: skewY(22deg);
+.dev img{
+	width: 100%;
 }
 
-p{
-	text-align: left;
-	margin-top: 0px;
-	margin-bottom: 12px;
+.com{
+	display: none;
 }
 
-footer{
-	font-weight: bolder;
-	display: inline-block;
-	margin-top: 2000px;
+.C, .E, .I, .K, .N, .P, .T, .V, .Y, .AA, .AE {
+	margin-top: -40px;
 }
 
-a{
-	text-decoration: none;
-	color: black;
+.D, .J, .O, .U, .Z, .AF {
+	margin-top: -93px;
+}
+
+.F, .H, .M, .Q, .AD {
+	margin-top: 5px;
+}
+
+.G, .L, .R, .S, .W, .AB, .AC{
+	margin-top: 23px;
+}
+
+.AG{
+	margin-top: -15px;
+	margin-bottom: 30px;
+}
 }
