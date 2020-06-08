@@ -21,6 +21,12 @@ body{
   margin-bottom: 10px;
 }
 
+#quatre{
+	transform: skewY(4deg);
+	margin-top: -5px;
+  margin-bottom: 10px;
+}
+
 #douze{
 	transform: skewY(12deg);
 	margin-top: -28px;
