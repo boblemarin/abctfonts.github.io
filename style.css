@@ -11,20 +11,20 @@ body{
 
 .jeanjean{
 	font-family: Jeannot, Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 30px;
 	text-align: left;
 }
 
-#quatre{
-	transform: skewY(4deg);
+#moinsquatre{
+	transform: skewY(-4deg);
 }
 
-#moinsdouze{
-	transform: skewY(-12deg);
+#douze{
+	transform: skewY(12deg);
 }
 
-#moinsdixhuit{
-	transform: skewY(-18deg);
+#dixhuit{
+	transform: skewY(18deg);
 }
 
 footer{
