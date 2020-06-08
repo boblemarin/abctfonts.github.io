@@ -9,10 +9,29 @@ body{
 	background-color: #fcfbeb;
 }
 
-.jeanjean{
+header{
+	background-color: white;
+	z-index: 0;
+	position: fixed;
+  top: 0;
+  margin-top: 60px; padding-bottom: 10px;
+  transition: top 0.3s ease-in-out;
+  width: 100%;
+}
+
+.nav-up{
+    top: -300px;
+}
+
+.h1{
 	font-family: Jeannot, Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	text-align: left;
+}
+
+a{
+	color: black;
+	text-decoration: none;
 }
 
 #zero{
@@ -71,7 +90,7 @@ footer img{
 	margin: auto;
 }
 
-header img{
+.turbohead img{
 	width: 100%;
 }
 
