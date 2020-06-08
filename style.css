@@ -17,14 +17,20 @@ body{
 
 #moinsquatre{
 	transform: skewY(-4deg);
+	margin-top: -5px;
+  margin-bottom: 10px;
 }
 
 #douze{
 	transform: skewY(12deg);
+	margin-top: -28px;
+  margin-bottom: 28px;
 }
 
-#dixhuit{
-	transform: skewY(18deg);
+#vingtdeux{
+	transform: skewY(22deg);
+	margin-top: -57px;
+  margin-bottom: 55px;
 }
 
 footer{
