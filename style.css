@@ -1,11 +1,30 @@
 @font-face{font-family: Aileron; src: url(fonts/aileron_regular.otf) format("opentype");}
 @font-face{font-family: Aileron; font-weight: bold; src: url(fonts/aileron_bold.otf) format("opentype");}
 @font-face{font-family: Talbot; src: url(fonts/Talbot.otf) format("opentype");}
+@font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
 
 body{
 	margin: 0px;
 	margin-top: 30px;
 	background-color: #fcfbeb;
+}
+
+.jeanjean{
+	font-family: Jeannot, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+
+#quatre{
+	transform: skewY(4deg);
+}
+
+#moinsdouze{
+	transform: skewY(-12deg);
+}
+
+#moinsdixhuit{
+	transform: skewY(-18deg);
 }
 
 footer{
